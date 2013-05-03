@@ -1,6 +1,10 @@
 Inspiredthoughts::Application.routes.draw do
+  devise_for :users
+
   resources :statuses
 
+  # Add for gem devise
+  root :to => "statuses#index"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
