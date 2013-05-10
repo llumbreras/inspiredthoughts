@@ -15,3 +15,9 @@ ciaran:
   last_name: "Wisdom"
   email: "cwisdom@example.org"
   profile_name: "cwisdom"
+
+giselle:
+  first_name: "Giselle"
+  last_name: "Blue"
+  email: "gblue@example.org"
+  profile_name: "giselleblue"
