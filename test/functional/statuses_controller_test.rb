@@ -18,7 +18,7 @@ class StatusesControllerTest < ActionController::TestCase
   end
 
   test "should render new page when logged in" do
-    sign_in users(:ciaran)
+    sign_in users(:foo)
   end
 
   test "should be logged in to post a status" do
@@ -28,7 +28,7 @@ class StatusesControllerTest < ActionController::TestCase
   end
 
   test "should create status when logged in" do
-    sign_in users(:ciaran) 
+    sign_in users(:foo) 
     put :update, id: @status, status: { content: @status.content }
 
     assert_redirected_to status_path(assigns(:status))

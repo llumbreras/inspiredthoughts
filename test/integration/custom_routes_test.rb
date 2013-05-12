@@ -22,7 +22,7 @@ class CustomRoutesTest < ActionDispatch::IntegrationTest
   end
 
   test "that the profile page works" do
-    get '/hgolly_2000'
-    asser_response :success
+    get '/foobar'
+    assert_response :success
   end
 end

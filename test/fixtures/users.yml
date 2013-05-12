@@ -10,14 +10,14 @@
 #two: {}
 #  column: value
 
-ciaran:
-  first_name: "Ciaran"
-  last_name: "Wisdom"
-  email: "cwisdom@example.org"
-  profile_name: "cwisdom"
+foo:
+  first_name: "Foo"
+  last_name: "Bar"
+  email: "foo.bar@example.org"
+  profile_name: "foobar_20"
 
-giselle:
-  first_name: "Giselle"
-  last_name: "Blue"
-  email: "gblue@example.org"
-  profile_name: "giselleblue"
+baz:
+  first_name: "Baz"
+  last_name: "Qux"
+  email: "baz.qux@example.org"
+  profile_name: "bazqux"

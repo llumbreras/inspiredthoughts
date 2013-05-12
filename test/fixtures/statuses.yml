@@ -2,17 +2,17 @@
 
 one:
 #  name: MyString
-  content: MyText
-  user: ciaran
+  content: "The world is in motion."
+  user: foo
 two:
 #  name: MyString
-  content: MyText
-  user: ciaran
+  content: "Row your boat, follow the path."
+  user: foo
 
 three:
-  content: "The sunny land o lakes"
-  user: giselle
+  content: "The sunny land with lakes."
+  user: baz
 
 four:
-  content: "Dreaming of Lhasa"
-  user: giselle
+  content: "Dreaming of the horizon."
+  user: baz
